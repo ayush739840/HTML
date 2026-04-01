@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>question 1</h1>
+        <table border="1px black">
+            <caption>Student Information</caption>
+            <tr >
+                <th rowspan="6">info</th>
+                <th rowspan="2">Name</th>
+                 <th colspan="2">Adress</th>
+                 
+            </tr>
+            <tr>
+                <th>city</th>
+                 <th>house</th>
+            </tr>
+            <tr >
+                <td>A</td>
+                <td>delhi</td>
+                <td>1</td>
+            </tr>
+            <tr >
+              <td>B</td>
+                <td>mumbai</td>
+                <td>2</td> 
+            </tr>
+            <tr><td>c</td>
+                <td>mumbai</td>
+                <td>2</td></tr>
+            
+                <tr><td>d</td>
+                <td>mumbai</td>
+                <td>2</td> </tr>
+            
+        </table>
+    </div>
+
+   <br>
+   <div>
+    <h2>Question 2</h2>
+    <p>recreate the form</p>
+
+    <form action="actin.php">
+   <div>
+    <label for="name">Name</label>
+    <input type="text" id="name">
+   </div>
+ <div><label for="caste">Sex:</label>
+     <input type="radio" name="cast" id="caste" value="male"> male
+     <input type="radio" name="cast" id="caste" value="female"> female</div>  
+
+     <div>
+        <label for="cont">Country:</label>
+        <select name="co" id="cont">
+             <option value="">choose your country</option>
+             <option value="india">India</option>
+             <option value="other">other</option>
+        </select>
+       
+     </div>
+     <div>
+        <div>Massage:</div>
+        <br>
+        <textarea name="" id="text" rows="5" cols="17"></textarea>
+    <br>
+        <input type="checkbox"> Suscribe? 
+    </div>
+    
+    <button> submit</button>
+
+    </form>
+   </div>
+
+   <br>
+   <div>
+    <h2>Question 3</h2>
+    <form action="actin.php">
+        <h2>feedback form</h2>
+        <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Name please">
+              <br>
+               <br>
+              <label for="name">Email:</label>
+               <input type="text" id="name" placeholder="Type your email please">
+   
+        </div>
+
+         <div>
+            <div>Massage:</div>
+            
+            <textarea name="" id="text" rows="5" cols="17"></textarea>
+     
+        </div>
+         <div><label for="caste">Rate us for out of 5</label>
+            <br>
+     <input type="radio" name="cast" id="caste" value="male">1 <br>
+     <input type="radio" name="cast" id="caste" value="female">2 <br>
+    <input type="radio" name="cast" id="caste" value="male">3 <br>
+     <input type="radio" name="cast" id="caste" value="female">4
+    </div>  
+    
+    <button>submit</button>
+</div>
+    </form>
+   </div>
+</body>
+</html>
